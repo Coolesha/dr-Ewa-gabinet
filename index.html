@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta content="Prywatny gabinet lekarski, Doktor Ewa Turecka-Kulesza Gastrolog" name="description">
+  <meta content="Gabinet lekarski, Gastrolog, poradnia gastrologiczna, lekarz prywatny, bóle brzucha, choroby wewnętrzne" name="keywords">
+  <meta content="Marek Kulesza" name="Author">
+  <title>Ewa Turecka Kulesza Gastrolog</title>
+  <link href="css/style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,400i" rel="stylesheet">
+
+</head>
+
+<body>
+  <header>
+    <div class="navbar">
+    <!-- nazwa oraz ikona hamburgera -->
+    <div class="navbar__name">
+        <a href="#strona-glowna" class="scrollTo">
+        <h1>Dr n. med. Ewa<br> Turecka-Kulesza</h1></a>
+      <button class="hamburger-icon" id="nav-icon"><span></span> <span></span> <span></span> <span></span> <span></span> <span></span></button>
+    </div>
+    <!-- linki menu -->
+    <nav class="navbar__nav">
+      <ul>
+        <li><a href="#omnie" data-offset="100" class="scrollTo">O Mnie</a></li>
+        <li><a href="#uslugi" class="scrollTo">Usługi</a></li>
+        <li><a href="#kontakt" class="scrollTo">Kontakt</a></li>
+      </ul>
+      </div>
+    </nav>
+    </div>
+    <div class="main-site navi active" id="strona-glowna">
+<div class="title">
+  <h2> Gabinet<br> internistyczno-gastrologiczny</h2>
+      <h3><span>dr. n. med.</span> Ewa<br> Turecka-Kulesza</h3>
+      </div>
+    <div class="profile_picture">
+        <img src="img/zdjecie_profil_fade.png" alt="zdjęcie profilowe">
+        </div>
+    </div>
+  </header>
+<main>
+  <section class="about navi" id ="omnie">
+    <header><h2>O mnie</h2></header>
+        <img class="quote_up"src="img/cudzyslow_up.png" alt="cudzysłów">
+    <article>
+      <p>Od <b>1983</b> roku jestem zatrudniona w Uniwersyteckim Szpitalu Klinicznym w Białymstoku, w Klinice Gastroenterologii i Chorób Wewnętrznych. Przyjmuję równiez pacjentów w Przyklinicznej Poradni Gastroenterologicznej  </p>
+      <p>O wyborze zawodu, poza tradycją rodzinną, zdecydowało kilka czynników: fakt, iż praca ta wiąże się z bezpośrednim kontaktem z wieloma ludźmi, możliwością pomagania innym, cechuje się dużą różnorodnością sytuacji i problemów do rozwiązania, często dostarcza wiele satysfakcji. </p><br>
+      <p>W ciągu wielu lat pracy nauczyłam się, że uwzględniając  standardy i algorytmy w postępowaniu diagnostyczno-terapeutycznym, nie można zapomnieć, iż <b>każdy pacjent wymaga  indywidualnego podejścia.</b> </p><br>
+      <p>Wyrazem docenienia mojej pracy było wyróżnienie uzyskane dzięki głosom pacjentów w plebiscycie Kuriera Porannego <b>„Lekarz Roku 2012”.</b></p>
+    </article>
+    <img class="quote_down" src="img/cudzyslow_down.png" alt="cudzysłów">
+  </section>
+
+  <section class="services navi" id ="uslugi">
+    <header><h2>Zakres Usług</h2></header>
+
+    <article>
+      <h3>Oferuję:</h3><br>
+      <p>-zaplanowanie niezbędnych badań diagnostycznych oraz leczenie farmakologiczne;
+        <br>
+  -  zalecenia dietetyczne i modyfikację trybu życia, jak najlepiej dostosowane do zdiagnozowanych schorzeń.
+      </p>
+       <br>
+      <p>Opierając się na wieloletnim doświadczeniu i zdobytej wiedzy pomagam chorym zaplanować niezbędne badania diagnostyczne oraz leczenie farmakologiczne, zalecenia dietetyczne i modyfikacje trybu życia, jak najlepiej dostosowane od zdiagnozowanych schorzeń.
+      </p>
+
+    </article>
+    <article>
+      <h3 style="margin: 5vh auto 3vh auto">Zakres usług:</h3>
+      <h3>Choroby przełyku, żołądka i dwunastnicy:</h3>
+        <ul>
+          <li>choroba refluksowa przełytku,</li>
+          <li>choroba wrzodowa żołądka,</li>
+        </ul>
+      <h3>Choroby trzustki i wątroby:</h3>
+        <ul>
+          <li>przewlekłe zapalenie trzustki,</li>
+          <li>marskość wątroby,</li>
+          <li>zmiany ogniskowe w trzustce i wątrobie</li>
+        </ul>
+      <h3>Choroby jelit:</h3>
+        <ul>
+          <li>choroba Crohna,</li>
+          <li>wrzodziejące zapalenie jelita grubego,</li>
+          <li>zespół jelita drażliwego,</li>
+          <li>polipy jelita</li>
+        </ul>
+    </article>
+      </section>
+
+
+
+  <section class="contact navi" id ="kontakt">
+    <header><h2>Kontakt</h2></header>
+       <div class="linia"></div>
+    <div class="address">
+      <p>Ewa Turecka-Kulesza<br><br>
+        ul.Wojskowa 4, lok.15 <br>
+      15-270, Białystok<br>
+      Tel. 794-700-449<br><br>
+      Rejestracja:<br>
+      pon-sob.
+      9:00-18:00</p>
+
+    </div>
+    <div class="workplace">
+      <button>MAPA</button>
+    </div>
+  </section>
+  <section class="map">
+    <div class="map">
+
+<div id="map"></div>
+<!-- Replace the value of the key parameter with your own API key. -->
+<script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCUHKuaw5DV-lbpU_6O1LvU8Zoe7FqgsCk&callback=initMap">
+
+</script>
+    </div>
+    <div class="form"></div>
+  </section>
+</main>
+<footer></footer>
+
+  <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
+  </script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
